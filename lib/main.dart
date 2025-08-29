@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:learning_animation/home_page1.dart';
 import 'home_page.dart';
 
 void main() {
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
       themeMode: ThemeMode.dark,
       debugShowCheckedModeBanner: false,
       debugShowMaterialGrid: false,
-      home: const HomePage(),
+      home: const HomePage1(),
     );
   }
 }
