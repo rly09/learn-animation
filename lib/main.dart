@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:learning_animation/home_page1.dart';
 import 'home_page.dart';
+import 'home_page2.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       themeMode: ThemeMode.dark,
       debugShowCheckedModeBanner: false,
       debugShowMaterialGrid: false,
-      home: const HomePage1(),
+      home: const HomePage2(),
     );
   }
 }
